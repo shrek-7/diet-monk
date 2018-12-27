@@ -1,0 +1,350 @@
+@font-face {
+    font-family: "Exo-Medium";
+    font-weight: 500;
+    src: url("../assets/fonts/Exo-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Exo-SemiBold";
+    font-weight: 500;
+    src: url("../assets/fonts/Exo-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Exo-Light";
+    font-weight: 500;
+    src: url("../assets/fonts/Exo-Light.ttf");
+}
+
+@font-face {
+    font-family: "Exo-ExtraLight";
+    font-weight: 500;
+    src: url("../assets/fonts/Exo-ExtraLight.ttf");
+}
+
+.input-text-default{
+    border:1px solid #999;
+    outline:none;
+    padding:0.5rem;
+    border-radius:5px;
+}
+a{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    transform: scale(1.05);
+}
+
+button{
+    border:none;
+    outline:none;
+    cursor: pointer;
+    font-family: "Exo-Medium";
+
+}
+.custom-btn{
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    background: white;
+    border-radius: 2px;
+    color: green;
+    border: 2px solid green;
+}
+
+.login-btn{
+    padding:0.5rem 1rem;
+    border-radius: 50px;
+    background: transparent;
+    font-size: 1rem;
+    color: wheat;
+    border: 2px solid wheat;
+
+}
+
+#diet-monk-page{
+    font-family: Exo-Medium;
+}
+body{
+    font-family: Exo-Medium;
+}
+.flex{
+    display: flex;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-col{
+    display:flex;
+    flex-direction: column;
+}
+.flex-grow{
+    flex-grow: 1;
+}
+
+.header{
+    padding:0.5rem 1rem;
+        width: 100%;
+    position: fixed;
+    background:#0b6623;
+}
+
+.nav-link{
+    margin:0 1rem;
+    color: wheat;
+}
+
+.header-navbar{
+    margin-right: 2rem;
+}
+
+.diet-monk-logo-wrap{
+    font-size:3rem;
+    font-family: 'Gochi Hand', cursive;    
+}
+
+.each-section{
+    height: 100vh;
+    /* min-height: 700px; */
+    font-size: 3rem;
+    padding:2rem;
+    color: #000000;
+}
+
+.top-section{
+    background-image: url("../assets/images/diet-chart-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.top-section-heading{
+    width:50%;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    border-radius: 50%;
+    text-align: center;
+}
+.keto-section{
+    background: #043927;
+    color:#fff;
+    font-weight: 100;
+}
+.keto-left-section{
+    width: 50%;
+    padding:2rem 1rem;
+}
+.keto-left-section p{
+    font-size: 1.2rem;
+    margin:3rem 0;
+    font-family: "Exo-ExtraLight";
+}
+.keto-container{
+}
+.intermittent-section{
+    background: #50C878;
+}
+.intermittent-section p{
+    font-family: "Exo-Light";
+}
+
+.custom-section{
+    background: url("../assets/images/custom-bg2.jpg");
+    background-size: cover;    
+    /* height: 100%; */
+}
+
+.custom-container{
+    width:40%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.custom-title{
+    font-size: 1.8rem;
+    margin:0rem 0 5rem 0;
+    line-height: 1.6;
+}
+
+
+
+.footer-cover{
+    padding:1rem;
+    display: flex;
+    justify-content: space-between;
+    background: #D0F0C0;
+}
+
+.footer-cover a{
+    margin:0 0.5rem;
+}
+.footer-icon:hover{
+    transform: scale(1.1)
+}
+
+.login-modal-cover{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+
+}
+
+.login-modal-content{
+    width:40%;
+    background: white;
+    padding:1rem;
+}
+
+.login-heading{
+    font-size:1.5rem;
+    text-align: center;
+
+}
+
+.login-heading div{
+    padding:1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.grey-background{
+    background: #333;
+    color:white;
+}
+
+.login-form-wrap{
+    margin:1rem 0;
+    padding:1rem 0;
+    position: relative;
+}
+.relative{
+    position: relative;
+}
+.coming-soon{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    background: rgba(50,50,50,0.5);
+    color:black;
+    font-size: 1.5rem;
+}
+
+.show{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+.login-username{
+    margin-bottom: 1rem;
+}
+
+.login-label{
+    margin-right: 2rem;
+}
+
+.login-submit{
+    color:black;
+    border:2px solid black;
+}
+
+.form-submit-wrap{
+    margin-top: 2rem;
+}
+
+.close-icon{
+    position: absolute;
+    right:0.5rem;
+    top:0.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 900px){
+    .keto-left-section p {
+        font-size: 1rem;
+    }
+
+    .login-modal-content{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width : 750px){
+    .keto-left-section p {
+    }
+
+    .bg-screen-only{
+        display: none;
+    }
+    .login-modal-content{
+        width: 60%;
+    }
+
+}
+
+@media only screen and (max-width : 650px){
+    .each-section{
+        min-height: 100vh;
+        height: 100%;
+    }
+    .keto-left-section{
+        width: 100%;
+    }
+
+    .keto-container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .keto-container img{
+        width: 100%;
+    }
+    .login-modal-content{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 550px){
+    .login-modal-content{
+        width: 80%;
+    }
+
+    .lists-cover{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width : 450px){
+    .login-modal-content{
+        width: 90%;
+    }
+}

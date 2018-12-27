@@ -1,0 +1,103 @@
+.page-heading{
+    padding:2rem;
+    font-size: 2rem;
+    background: lightgreen;
+    border-bottom:1px solid green
+
+}
+
+.greetings-name{
+    text-transform: capitalize;
+    margin:0 0.5rem;
+}
+
+.morning-section{
+    width:auto;
+}
+
+.important-section{
+
+}
+
+.heading-font{
+    font-size: 1.5rem;
+    margin:1.5rem;
+
+}
+
+.important-section-heading{
+    font-size: 1.5rem;
+    padding:1rem;
+    border-bottom:1px solid green;
+    margin:1rem 1rem 0 1rem;
+
+}
+.morning-section-heading{
+    margin:0 5rem;
+}
+
+.morning-section ul{
+    border-top:1px solid black;
+    margin:1rem 5rem;
+    color:black;
+    
+}
+
+.morning-section li{
+    padding:1rem;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    border-left:1px solid black;
+}
+
+.custompage-body{
+    padding:4rem 1rem;
+    background: rgba(30,150,80,0.7); /* fallback for old browsers */
+    /* background: linear-gradient(to left, green, lightgreen); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.diet-chart-container{
+    padding:1rem;
+background: darkgreen;
+color:white;
+}
+
+.important-section-body{
+margin:0 1rem 1rem 1rem;
+}
+
+.important-section-body ul{
+
+}
+
+.important-section-body li{
+    padding:1rem;
+    border-bottom:1px solid green;
+}
+
+.lists-cover{
+    margin:2rem 0
+}
+
+.back-icon{
+    position: absolute;
+    left:1rem;
+    height:2rem;
+}
+
+.back-icon img{
+    height:2rem;
+    cursor: pointer;
+}
+
+.yellowgreen{
+    background: yellowgreen;
+}
+
+.palegreen{
+    background: palegreen;
+}
+
+.darkseagreen{
+    background: darkseagreen;
+}
