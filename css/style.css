@@ -55,8 +55,8 @@ button{
     font-size: 1.2rem;
     background: white;
     border-radius: 2px;
-    color: green;
     border: 2px solid green;
+    transition: all 0.2s ease;
 }
 
 .login-btn{
@@ -64,8 +64,7 @@ button{
     border-radius: 50px;
     background: transparent;
     font-size: 1rem;
-    color: wheat;
-    border: 2px solid wheat;
+    border: 2px solid #000;
 
 }
 
@@ -101,15 +100,16 @@ body{
 }
 
 .header{
-    padding:0.5rem 1rem;
-        width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0.5rem 1rem;
+    width: 100%;
     position: fixed;
-    background:#0b6623;
+    background: rgba(255,255,255,0.7);
 }
 
 .nav-link{
     margin:0 1rem;
-    color: wheat;
+    transition: all 0.2s ease;
 }
 
 .header-navbar{
@@ -117,8 +117,8 @@ body{
 }
 
 .diet-monk-logo-wrap{
-    font-size:3rem;
-    font-family: 'Gochi Hand', cursive;    
+    font-size:2.5rem;
+    font-family: 'RobotoMed';    
 }
 
 .each-section{
@@ -146,8 +146,8 @@ body{
     text-align: center;
 }
 .keto-section{
-    background: #043927;
-    color:#fff;
+    background-image: linear-gradient(#fff,#B6E5FC);
+    /* color:#fff; */
     font-weight: 100;
 }
 .keto-left-section{
@@ -155,17 +155,22 @@ body{
     padding:2rem 1rem;
 }
 .keto-left-section p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin:3rem 0;
-    font-family: "Exo-ExtraLight";
+    font-family: "RobotoReg";
+}
+.keto-left-section img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .keto-container{
 }
 .intermittent-section{
     background: #50C878;
+    background-image: linear-gradient(#fff,#C6ED88);
+    
 }
 .intermittent-section p{
-    font-family: "Exo-Light";
+    font-family: "RobotoReg";
 }
 
 .custom-section{
@@ -184,6 +189,7 @@ body{
     font-size: 1.8rem;
     margin:0rem 0 5rem 0;
     line-height: 1.6;
+    font-family: 'RobotoReg';
 }
 
 
@@ -192,7 +198,9 @@ body{
     padding:1rem;
     display: flex;
     justify-content: space-between;
-    background: #D0F0C0;
+    background: #112F41;
+    color: #fff;
+    font-family: "RobotoReg";
 }
 
 .footer-cover a{

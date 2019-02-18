@@ -9,4 +9,22 @@
     font-weight: 500;
     src: url("../assets/fonts/Exo-SemiBold.ttf");
   }
+
+  @font-face {
+    font-family: "RobotoBold";
+    font-weight: 500;
+    src: url("../assets/fonts/Roboto-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "RobotoReg";
+    font-weight: 500;
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "RobotoMed";
+    font-weight: 500;
+    src: url("../assets/fonts/Roboto-Medium.ttf");
+  }
   
